@@ -6,21 +6,21 @@
 }
 
 .container {
-	width: 1000px;
+	width: 1100px;
 	position:  relative;
-
-	
+	left: 30px;
+	background-color: lightyellow;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 header {
 	margin-top: 20px;
 	position: relative;
 	left: 40px;
+	width: 1000px;
 }
 
-div #nav {
-	background-color: pink;
-}
 
 header h3 {
 	display: inline-block;
@@ -32,13 +32,18 @@ header h3 {
 #header {
 		background-color: lightblue;
 		text-align: center;
+		margin-top: 10px;
 }
 
+div [class="nav"] {
+	background-color: grey;
+}
 
 nav {
 	position: relative;
 	left: 600px;
-}
+	}
+
 
 li {
 	float: left;
@@ -72,7 +77,7 @@ div.scooter {
 	display: inline-block;
 	position: absolute;
 	left: 550px;
-	top: 620px; 
+	top: 655px; 
 }
 
 .square1 {
@@ -93,6 +98,7 @@ div.scooter {
 	position: relative;
 	left: 40px;
 	padding-bottom: 15px;
+	width: 1000px;
 }
 
 figure {

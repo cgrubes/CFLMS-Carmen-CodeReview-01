@@ -2,10 +2,11 @@
 <html>
 <head>
 	<title>About Me</title>
+	<link rel="stylesheet" type="text/css" href="blog_home.css">
 	<style>
 		.container {
 			padding-left: 100px;
-			background-color: lightslategrey;
+			background-color: lightyellow;
 		}
 
 	h1
@@ -22,14 +23,57 @@
 		font-weight: bold;
 		font-size: 16pt;
 	}
+
+	li {
+			list-style-type: none;
+			float: left;
+			padding-left: 10px;
+			padding-right: 20px;
+		}
+
+	nav {
+		background-color: lightyellow;
+		width: 500px;
+	}
+
 	</style>
 </head>
 
 <div class="container">
 <body>
+<header>
+	<div id="header"><h3>Carmen - Full Stack Web Developer</h3>
+		<img class="logo" src="logo.png" alt="cannot display logo">
+	</div>
+
+	<div class="nav">
+	<nav>
+		<ul>
+			<li><a href = "blog_home.html">Home</a></li>
+			<li><a href = "blog_blog.html">Blog</a></li>
+			<li><a href = "blog_aboutme.html">About me</a></li>
+			<li><a href="blog_contact.html">Contact</a></li>
+		</ul>
+		<br>
+
+	</nav>
+	
+</header><!-- /header -->
+
+
+
 <h1>All about me!</h1>
 <img src="profile_pic.jpg" alt="">
 <p>Here is where I would write some extremely interesting information about myself!</p>
 </body>
+
+<footer>
+	<div class="footer">
+		<img class=logo src="logo.png" alt="cant display image"> <br>
+		<p>Carmen - CodeFactory 2020</p>
+	</div>
+
+
+</footer>
 </div>
 </html>

@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Blog</title>
+	<link rel="stylesheet" type="text/css" href="blog_home.css">
 	<style>
 		#code {
 			height: 200px;
@@ -19,6 +20,8 @@
 			border-color: lightgrey; 
 			display:  inline-block;
 			background-color: pink;
+			padding-left: 20px;
+			padding-right: 20px;
 		}
 
 		.inline {
@@ -36,14 +39,42 @@
 
 		#move {
 			position: absolute;
-			top: 550px;
+			top: 720px;
 			background-color: lightyellow;
+		}
+
+		li {
+			list-style-type: none;
+			float: left;
+			padding-left: 10px;
+			padding-right: 20px;
 		}
 
 	</style>
 </head>
 <body>
+<header>
+	<div id="header"><h3>Carmen - Full Stack Web Developer</h3>
+		<img class="logo" src="logo.png" alt="cannot display logo">
+	</div>
+
+	<div class="nav">
+	<nav>
+		<ul>
+			<li><a href = "blog_home.html">Home</a></li>
+			<li><a href = "blog_blog.html">Blog</a></li>
+			<li><a href = "blog_aboutme.html">About me</a></li>
+			<li><a href="blog_contact.html">Contact</a></li>
+		</ul>
+		<br>
+
+	</nav>
+	
+</header><!-- /header -->
+
+<div>
 <h1> The Life and Times of a Novice Programmer</h1>
+</div>
 
 <main>
 	<article>
@@ -72,7 +103,7 @@
 <article>
 	<div id="move">
 		<div class="border">
-			<p>For some reason I can"t quite figure out how to properly get these boxes to appear next to each other...I think I should use inline or inline-block but it just doesnt really work so I have done it using positions, which isnt very handy so there must be a better way!</p>
+			<p>For some reason I can"t quite figure out how to properly get these boxes to appear next to each other...<br>I think I should use inline or inline-block but it just doesnt really work so I have done it using positions <br> which isnt very handy so there must be a better way!</p>
 		</div>
 	</div>
 </article>
@@ -83,4 +114,13 @@
 
 
 </body>
+
+<footer>
+	<div class="footer">
+		<img class=logo src="logo.png" alt="cant display image"> <br>
+		<p>Carmen - CodeFactory 2020</p>
+	</div>
+
+
+</footer>
 </html>
