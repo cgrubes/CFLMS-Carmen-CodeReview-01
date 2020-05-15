@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+	<style>
+		#code {
+			height: 200px;
+			width: 200px;
+			position:  relative;
+			top: -20px;
+			left: 60px;
+		}
+
+		#firstwebsite {
+			text-align: center;
+		}
+		.border {
+			border-style: solid;
+			border-color: lightgrey; 
+			display:  inline-block;
+			background-color: pink;
+		}
+
+		.inline {
+			display: inline-block;
+			position:  relative;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		.inline1 {
+			position: relative;
+			top: -400px;
+			left: 400px;
+		}
+
+		#move {
+			position: absolute;
+			top: 550px;
+			background-color: lightyellow;
+		}
+
+	</style>
+</head>
+<body>
+<h1> The Life and Times of a Novice Programmer</h1>
+
+<main>
+	<article>
+	<div class="border">
+		<h3 id="firstwebsite"> First Website </h3> <br>
+		<img id="code" src="blog_code.png" alt="image cannot be displayed">
+		<p>Today I made my first website for a Code Review,<br> and some parts of it were definitely tricky...</p>
+	</div>
+	</article>
+<br>
+<br>
+
+<article>
+	<div class="inline1">
+	<div class="border">
+		<div class="inline">
+
+		<h3 id="iframetitle"> Learned about iFrames</h3> <br>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/t2ByLmLnYJ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<p>We also learned how to embed iframes, which is very useful!</p>
+		</div>
+	</div>
+	</div>
+</article>
+
+<article>
+	<div id="move">
+		<div class="border">
+			<p>For some reason I can"t quite figure out how to properly get these boxes to appear next to each other...I think I should use inline or inline-block but it just doesnt really work so I have done it using positions, which isnt very handy so there must be a better way!</p>
+		</div>
+	</div>
+</article>
+
+</main>
+
+
+
+
+</body>
+</html>
