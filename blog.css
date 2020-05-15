@@ -1,0 +1,111 @@
+.logo {
+	width: 200px;
+	height: 75px;
+	display: inline-block;
+	padding-top: 30px;
+}
+
+.container {
+	width: 1000px;
+	position:  relative;
+
+	
+}
+
+header {
+	margin-top: 20px;
+	position: relative;
+	left: 40px;
+}
+
+div #nav {
+	background-color: pink;
+}
+
+header h3 {
+	display: inline-block;
+	padding-right: 200px;
+	position: relative;
+	top: -40px;
+}
+
+#header {
+		background-color: lightblue;
+		text-align: center;
+}
+
+
+nav {
+	position: relative;
+	left: 600px;
+}
+
+li {
+	float: left;
+	list-style-type: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#title {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 3em;
+}
+
+.rectangular {
+	padding-top: 20px;
+	width: 1000px;
+	height: 250px;
+	object-fit: fill;
+}
+
+div .atm {
+	width: 450px;
+	height: 300px;
+	display: inline-block;
+
+}
+
+
+div.scooter {
+	display: inline-block;
+	position: absolute;
+	left: 550px;
+	top: 620px; 
+}
+
+.square1 {
+	object-fit: contain; 
+	width: 450px;
+	height:  300px;
+}
+
+.square2 {
+	object-fit: contain; 
+	width: 450px;
+	height:  300px;
+}
+
+.footer {
+	text-align: center;
+	background-color: lightblue;
+	position: relative;
+	left: 40px;
+	padding-bottom: 15px;
+}
+
+figure {
+  display: table;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+
+
+
+footer p {
+	font-weight: bold;
+}
